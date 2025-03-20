@@ -5,12 +5,13 @@
   "scripts": {
     "start": "npx parcel src/index.html",
     "build": "npx parcel build src/index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "type-check": "tsc --noEmit"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "...",
   "dependencies": {
     "@heroicons/react": "^2.2.0",
     "react": "^19.0.0",
@@ -18,8 +19,11 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.0.14",
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.4",
     "parcel": "^2.14.1",
     "postcss": "^8.5.3",
-    "tailwindcss": "^4.0.14"
+    "tailwindcss": "^4.0.14",
+    "typescript": "^5.8.2"
   }
 }
